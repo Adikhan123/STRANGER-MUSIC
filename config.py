@@ -21,23 +21,23 @@ from pyrogram import filters
 load_dotenv()
 
 # Required credentials
-API_ID = int(getenv("API_ID"))
-API_HASH = getenv("API_HASH")
-BOT_TOKEN = getenv("BOT_TOKEN")
+API_ID = int(getenv("33210833"))
+API_HASH = getenv("c9fc3d29a1fbc62ee19a4cd0870a3b11")
+BOT_TOKEN = getenv("8749958671:AAF9Nb5uE1C-p-02OOijd-pVE959aQPGkn0")
 
 # Bot and owner info
-OWNER_USERNAME = getenv("OWNER_USERNAME", "SHIVANSHDEVS")
-BOT_USERNAME = getenv("BOT_USERNAME", "SapnaMusicRobot")
-BOT_NAME = getenv("BOT_NAME", "SAPNA")
-ASSUSERNAME = getenv("ASSUSERNAME", "KHWAAISH_HOON")
+OWNER_USERNAME = getenv("OWNER_USERNAME", "ll_LORD_ADI_ll")
+BOT_USERNAME = getenv("BOT_USERNAME", "AdiXsaniaBot")
+BOT_NAME = getenv("BOT_NAME", "˹ᴀᴅɪ ꭙ sᴀɴɪᴀ˼ ♪")
+ASSUSERNAME = getenv("ASSUSERNAME", "YAMRAJ_MUSIC_SUPPORT")
 
 # MongoDB
 MONGO_DB_URI = getenv("MONGO_DB_URI", None)
 
 # Limits and IDs
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 17000))
-LOGGER_ID = int(getenv("LOGGER_ID", -1002018556839))
-OWNER_ID = int(getenv("OWNER_ID", 6762113050))
+LOGGER_ID = int(getenv("LOGGER_ID", -1003740896401))
+OWNER_ID = int(getenv("OWNER_ID", 6457854684))
 
 # Heroku
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
@@ -45,13 +45,13 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 DEEP_API = getenv("DEEP_API")
 
 # Git
-UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/itzshukla/STRANGER-MUSIC")
+UPSTREAM_REPO = getenv("UPSTREAM_REPO", "")
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "main")
 GIT_TOKEN = getenv("GIT_TOKEN", None)
 
 # Support
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/ITSZSHUKLA")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/MASTIWITHFRIENDSXD")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/AdiBotMaker")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/YAMRAJ_MUSIC_SUPPORT")
 
 # Assistant settings
 AUTO_LEAVING_ASSISTANT = getenv("AUTO_LEAVING_ASSISTANT", "True")
@@ -72,8 +72,9 @@ PLAYLIST_FETCH_LIMIT = int(getenv("PLAYLIST_FETCH_LIMIT", 25))
 TG_AUDIO_FILESIZE_LIMIT = int(getenv("TG_AUDIO_FILESIZE_LIMIT", "5242880000"))
 TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", "5242880000"))
 
-# Session strings
-STRING1 = getenv("STRING_SESSION", None)
+# Session stringsv7W896xMH-UzAGQQxKSMFduswxbU9yZnQEuV8wvD7_7raWrAkXI3eicNg41t
+STRING1 = getenv("BQFwyZ4AkK7zah7eT2X-ugL0vQj5G1VfXIHkuCaHtVqYt03KFCDG9dBhw8VgtBwO5tcwFFc1Szhax6GhAhzdca5TE4oX6tbhchu-d2srhvmww1yKJapKRyA2Qx5EfDbcfLQJnffyQZCkcPqGSL-NKHMEnMuYLFKxxUWxlTWdeISq9g7metwC-6xFYXCK0zN6qYAK3wMCffvmdCSAR3JTjDABY2WJgR1LErqhgzF7KPk_Fiua4BKOQZXhJxiuj57Q_2FY3-qEA3l2XWNoZobz8PFB_2iLdTwtpgAAAAHqSrRYAA"
+)
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
